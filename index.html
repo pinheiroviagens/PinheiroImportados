@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simulador de Parcelamento</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Simulador de Parcelamento</h1>
+
+        <p class="subtitulo">
+            Informe o valor e escolha o parcelamento.
+        </p>
+
+        <label for="valor">
+            Valor da compra
+        </label>
+
+        <input
+            type="text"
+            id="valor"
+            placeholder="R$ 0,00"
+        >
+
+        <label for="parcelamento">
+            Parcelamento
+        </label>
+
+        <select id="parcelamento">
+
+            <option selected disabled>
+                Digite o valor acima
+            </option>
+
+        </select>
+
+        <div class="cartoes">
+
+            <label>Cartão</label>
+
+            <div class="cartoes-grid">
+
+                <label class="radio">
+
+                    <input
+                        type="radio"
+                        name="cartao"
+                        value="visa"
+                        checked>
+
+                    Visa / Master
+
+                </label>
+
+                <label class="radio">
+
+                    <input
+                        type="radio"
+                        name="cartao"
+                        value="elo">
+
+                    Elo
+
+                </label>
+
+                <label class="radio">
+
+                    <input
+                        type="radio"
+                        name="cartao"
+                        value="amex">
+
+                    Amex
+
+                </label>
+
+                <label class="radio">
+
+                    <input
+                        type="radio"
+                        name="cartao"
+                        value="hipercard">
+
+                    Hipercard
+
+                </label>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="assets/js/tabelas.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
